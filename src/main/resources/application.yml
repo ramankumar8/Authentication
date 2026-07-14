@@ -20,13 +20,13 @@ spring:
     username: ${SPRING_MAIL_USERNAME}
     password: ${SPRING_MAIL_PASSWORD}
 
-  twilio:
-    account:
-      sid: ${TWILIO_ACCOUNT_SID}
-    auth:
-      token: ${TWILIO_AUTH_TOKEN}
-    phone:
-      number: ${TWILIO_PHONE_NUMBER}
+twilio:
+  account:
+    sid: ${TWILIO_ACCOUNT_SID}
+  auth:
+    token: ${TWILIO_AUTH_TOKEN}
+  phone:
+    number: ${TWILIO_PHONE_NUMBER}
 
 server:
   port: 8015

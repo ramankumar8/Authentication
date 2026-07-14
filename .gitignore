@@ -39,4 +39,6 @@ build/
 
 ### Local Spring Configuration ###
 src/main/resources/application-local.yml
+src/main/resources/application-develop.yml
+src/main/resources/application-uat.yml
 src/main/resources/application-prod.yml
