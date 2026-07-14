@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Environment ###
+.env
+.env.*
+!.env.example
+
+### Local Spring Configuration ###
+src/main/resources/application-local.yml
+src/main/resources/application-prod.yml
